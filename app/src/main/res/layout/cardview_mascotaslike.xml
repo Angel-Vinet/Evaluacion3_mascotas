@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cvMascotaLike"
+    android:layout_marginBottom="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgMascotaLike"
+            android:layout_width="980px"
+            android:layout_height="640px"
+            android:src="@drawable/bienvenida"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgLikeMascota"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/ic_like"
+                />
+
+            <TextView
+                android:id="@+id/tvNombreLike"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:id="@+id/tvLikeMascota"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="190dp"
+                />
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:background="@mipmap/ic_hueso_dorado"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
